@@ -24,3 +24,19 @@ This project combines API handling, data management, and automation.
 
 ## 🔐 Environment Variables
 Create a `.env` file with:
+AMADEUS_API_KEY=your_amadeus_key
+AMADEUS_API_SECRET=your_amadeus_secret
+TWILIO_ACCOUNT_SID=your_sid
+TWILIO_AUTH_TOKEN=your_token
+TWILIO_PHONE_NUMBER=your_twilio_number
+MY_PHONE_NUMBER=your_personal_number
+SHEETY_USER=your_sheety_username
+SHEETY_PASSWORD=your_sheety_password
+
+⚠️ **Never upload `.env` or share your credentials publicly.**
+
+---
+
+## 📌 Acknowledgement
+Developed as part of my **100 Days of Python Bootcamp** learning journey.  
+This capstone project deepened my understanding of API integration, authentication, and automation workflows.
