@@ -1,3 +1,4 @@
+import os
 import requests
 from requests.auth import HTTPBasicAuth
 
@@ -6,8 +7,8 @@ SHEETY_PRICES_ENDPOINT = "https://api.sheety.co/656ff8db24cf0937372dbc64fb6e0a30
 
 class DataManager:
     def __init__(self):
-        self._user = "Heyware"
-        self._password = "2sdsd2eda"
+        self._user = os.environ.get("SHEETY_USER")
+        self._password = os.environ.get("SHEETY_PASSWORD")
         self._authorization = HTTPBasicAuth(self._user, self._password)
         self.destination_data = {}
 
