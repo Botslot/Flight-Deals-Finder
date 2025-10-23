@@ -37,6 +37,8 @@ SHEETY_PASSWORD=your_sheety_password
 
 ---
 
+> 🟢 Run the project by executing `main.py`
+
 ## 📌 Acknowledgement
 Developed as part of my **100 Days of Python Bootcamp** learning journey.  
 This capstone project deepened my understanding of API integration, authentication, and automation workflows.
