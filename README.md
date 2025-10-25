@@ -37,7 +37,7 @@ SHEETY_PASSWORD=your_sheety_password
 
 ---
 
-> 🟢 Run the project by executing `main.py`
+>🟢 To run the project: execute main.py
 
 ## 📌 Acknowledgement
 Developed as part of my **100 Days of Python Bootcamp** learning journey.  
